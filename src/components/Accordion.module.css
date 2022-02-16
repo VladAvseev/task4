@@ -1,0 +1,27 @@
+.accordion {
+    width: 800px;
+    margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.title {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #0dcaf0;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.title:hover {
+    opacity: 1;
+}
+
+.text {
+    margin: 0;
+    padding: 5px;
+    border: 3px solid #0dcaf0;
+    display: none;
+}
